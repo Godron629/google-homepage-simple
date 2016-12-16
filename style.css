@@ -1,0 +1,140 @@
+body {
+	font-family: arial;
+	font-size: 13px;
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	overflow: auto;
+}
+
+#header ul {
+	list-style-type: none;
+	margin: 5px;
+	padding: 5px;
+	padding-right: 18px;
+}
+
+#icons {
+	float: right;
+}
+
+#icons li {
+	display: inline;
+	padding: 5px;
+}
+
+#icons li a {
+	color: grey;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#sign_in {
+	display: inline;
+	padding: 8px 12px;
+	background-color: #4285f4;
+	color: white;
+	font-weight: bold;
+	border-radius: 3px;
+}
+
+#app_icon {
+	width: 25px;
+	position: relative; 
+	top: 7px;
+	opacity: 0.6;
+}
+
+#app_icon:hover {
+	opacity: 1;
+}
+
+#content {
+	height: 90vh;
+	position: relative;
+}
+
+#search {
+	width: 600px;
+	margin: 0 auto;
+	position: relative; 
+	top: 20%;
+}
+
+#logo {
+	width: 280px;
+	margin: 0 auto;
+}
+
+#searchbox {
+	width: 400px;
+	margin: 0 auto;
+}
+
+#search_text {
+	width: 400px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#search_text input {
+	line-height: 1.7;
+	font-size: 17px;
+	width: 400px;
+}
+
+#search_buttons {
+	width: 400px;
+	text-align: center;
+}
+
+#search_buttons input:hover {
+	color: #222;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.1)
+}
+
+
+#searchbox p {
+	text-align: center;
+}
+
+#footer {
+	overflow: auto;
+	position: absolute; 
+	width: 99.99%;
+	bottom: 0;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+}
+
+#footer ul {
+	list-style-type: none;
+	margin: 10;
+	padding: 10;
+}
+
+#left {
+	float: left;
+}
+
+#right {
+	float: right;
+}
+
+#left li , #right li{
+	display: inline;
+}
+
+#left li a , #right li a {
+	padding: 5px;
+	color: grey;
+}
